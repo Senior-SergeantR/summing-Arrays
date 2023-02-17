@@ -9,5 +9,15 @@ public class sumArrays {
             sum += j;
         }
         System.out.println(sum);
+        
+          for (int i= 0; i<=3;i++){
+            for (int j= 0; j<=30;j++){
+                System.out.print("-");
+                if (i==3 && j==7){
+                    break;
+                }
+            }
+            System.out.println();
+        }
     }
 }
